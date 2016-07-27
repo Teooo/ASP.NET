@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="ac09c999-c4c5-4734-ac03-b7471740a396" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:58091/ServiceDiscCalc.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServiceDiscCalc.xsd" MetadataType="Schema" ID="7b6d5f7a-9db3-481d-b1fb-219e3fe796ab" SourceId="1" SourceUrl="http://localhost:58091/ServiceDiscCalc.svc?xsd=xsd2" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="6df4c7b0-c1b8-4383-b522-822601f9399c" SourceId="1" SourceUrl="http://localhost:58091/ServiceDiscCalc.svc?wsdl" />
+    <MetadataFile FileName="ServiceDiscCalc1.xsd" MetadataType="Schema" ID="dc17f70c-ceaa-499a-9141-3904cba21495" SourceId="1" SourceUrl="http://localhost:58091/ServiceDiscCalc.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServiceDiscCalc2.xsd" MetadataType="Schema" ID="64ec033f-6c94-49ee-b1eb-298f26369a2c" SourceId="1" SourceUrl="http://localhost:58091/ServiceDiscCalc.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServiceDiscCalc.disco" MetadataType="Disco" ID="e89f76df-ec59-42a3-9913-f00e6acf4d00" SourceId="1" SourceUrl="http://localhost:58091/ServiceDiscCalc.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
